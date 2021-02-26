@@ -1,0 +1,50 @@
+#include <SFML/Graphics.hpp>
+
+#include <iostream>
+#include <utility>
+#include <vector>
+
+#include "Player.h"
+#include "Plateau.h"
+#include "Player.cpp"
+#include "Plateau.cpp"
+
+
+using namespace std;
+using namespace sf;
+
+
+int main()
+{
+    Board board = Board();
+    Player players [4] = {Player(RED), Player(BLUE), Player(YELLOW), Player(WHITE)};
+//    players[0].buyRoad()
+    sf::RenderWindow app(sf::VideoMode(800, 600), "SFML window");
+
+    /**sf::Texture texture;
+    if (!texture.loadFromFile("Data/tile.png"))
+        cout<<"erreur chargement sprite"<<endl;
+    sf::Sprite sprite(texture);
+    sprite.setScale(5,5);
+    sprite.setColor(Color::Red);**/
+
+    while (app.isOpen())
+    {
+        sf::Event event;
+        while (app.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+                app.close();
+        }
+
+        app.clear();
+
+        //app.draw(sprite);
+        board.draw(app);
+
+        app.display();
+    }
+
+
+    return EXIT_SUCCESS;
+}

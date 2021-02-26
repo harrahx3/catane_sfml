@@ -1,0 +1,205 @@
+#include <SFML/Graphics.hpp>
+#include <iostream>
+#include <cmath>
+#include <string>
+#include <sstream>
+#include <vector>
+#include <time.h>
+#include <ctime>
+#include <fstream>
+
+#include "Player.h"
+#include "Plateau.h"
+#include "Player.cpp"
+#include "main.cpp"
+
+using namespace std;
+using namespace sf;
+
+
+Elements::~Elements()
+{
+
+}
+
+Road::Road(Player player) : m_player(player)
+{
+    sf::Texture texture;
+    if (!texture.loadFromFile("Data/road.png"))
+        cout<<"erreur chargement sprite"<<endl;
+    m_texture = texture;
+    m_sprite = Sprite(m_texture);
+    // m_sprite.setScale(5,5);
+
+}
+sf::Sprite Road::draw()
+{
+    switch(m_player.getPlayer())
+    {
+    case BLUE :
+        m_sprite.setColor(Color::Blue);
+        break;
+    case RED :
+        m_sprite.setColor(Color::Red);
+        break;
+    case WHITE :
+        m_sprite.setColor(Color::White);
+        break;
+    case YELLOW :
+        m_sprite.setColor(Color::Yellow);
+        break;
+    default :
+        m_sprite.setColor(Color::Cyan);
+    }
+    return m_sprite;
+}
+void Road::setPlayer(Player newPlayer)
+{
+    m_player = newPlayer;
+    return true;
+}
+
+Intersection::Intersection(Players player) : m_player(player)
+{
+    sf::Texture texture;
+    if (!texture.loadFromFile("Data/intersection.png"))
+        cout<<"erreur chargement sprite"<<endl;
+    m_texture = texture;
+    m_sprite = Sprite(m_texture);
+    // m_sprite.setScale(5,5);
+
+}
+sf::Sprite Intersection::draw()
+{
+    switch(m_player.getPlayer())
+    {
+    case BLUE :
+        m_sprite.setColor(Color::Blue);
+        break;
+    case RED :
+        m_sprite.setColor(Color::Red);
+        break;
+    case WHITE :
+        m_sprite.setColor(Color::White);
+        break;
+    case YELLOW :
+        m_sprite.setColor(Color::Yellow);
+        break;
+    default :
+        m_sprite.setColor(Color::Cyan);
+    }
+    return m_sprite;
+}
+void Intersection::setPlayer(Player newPlayer)
+{
+    m_player = newPlayer;
+    return true;
+}
+
+
+Tile::Tile(Tiles tile, int num=0) : m_tile(tile), m_num(num)
+{
+    sf::Texture texture;
+    if (!texture.loadFromFile("Data/tile.png"))
+        cout<<"erreur chargement sprite"<<endl;
+    m_texture = texture;
+    m_sprite = Sprite(m_texture);
+    //m_sprite.setScale(5,5);
+}
+sf::Sprite Tile::draw()
+{
+    switch(m_tile)
+    {
+    case FOREST :
+        m_sprite.setColor(Color::Green);
+        break;
+    case MOUNTAIN :
+        m_sprite.setColor(Color::White);
+        break;
+    case HILL :
+        m_sprite.setColor(Color::Red);
+        break;
+    case FIELD :
+        m_sprite.setColor(Color::Yellow);
+        break;
+    case MEADOW :
+        m_sprite.setColor(Color::Magenta);
+        break;
+    case SEA :
+        m_sprite.setColor(Color::Blue);
+        break;
+    default :
+        m_sprite.setColor(Color::Cyan);
+    }
+    return m_sprite;
+}
+
+Board::Board()
+{
+    //int width = 5;
+    //int height = 5;
+    Tiles tiles [m_bWidth][m_bHeight] = {{SEA,FIELD,FOREST,FIELD,SEA},{FOREST,FIELD,FOREST,FIELD,HILL},{FOREST,FIELD,FOREST,FIELD,HILL},{FOREST,FIELD,FOREST,FIELD,HILL},{SEA,SEA,FOREST,SEA,SEA}};
+    for (int i=0; i<m_width; i++)
+        for (int j=0; j<m_height; j++)
+            elements[i][j] = new Tile(SEA, 0);
+
+    for (int i=0; i<m_bWidth; i++)
+    {
+        for (int j=0; j<m_bHeight; j++)
+        {
+            for (int a=1; a<4; a++)
+                for (int b=2; b<5; b++)
+                    elements[4*i+2*(j%2)+a][4*j+b] = new Tile(tiles[i][j], 0);
+            elements[4*i+2*(j%2)+2][4*j+1] = new Tile(tiles[i][j], 0);
+            elements[4*i+2*(j%2)+2][4*j+5] = new Tile(tiles[i][j], 0);
+
+            if (tiles[i][j] != SEA)
+            {
+                for (int a=0; a<7; a+=2)
+                {
+                    if (a == 0 || a == 6)
+                        elements[4*i+2+2*(j%2)][4*j+a] = new Intersection(EMPTY);
+                    else
+                        for (int b=0; b<5; b+=4)
+                            elements[4*i+b+2*(j%2)][4*j+a] = new Intersection(EMPTY);
+                }
+
+                for (int b=1; b<6; b+=2)
+                {
+                    if (b == 3)
+                        for (int a=0; a<5; a+=4)
+                            elements[4*i+a+2*(j%2)][4*j+b] = new Road (EMPTY);
+                    else
+                        for (int a=1; a<4; a+=2)
+                            elements[4*i+a+2*(j%2)][4*j+b] = new Road(EMPTY);
+                }
+            }
+        }
+    }
+}
+
+Board::~Board()
+{
+    for (int i=0; i<m_width; i++)
+        for (int j=0; j<m_height; j++)
+        {
+            delete elements[i][j];
+            elements[i][j] = 0;
+        }
+}
+
+void Board::draw(sf::RenderWindow& app)
+{
+    for (int i=0; i<m_width; i++)
+        for (int j=0; j<m_height; j++)
+        {
+            sf::Sprite sprite = elements[i][j]->draw();
+            sprite.setPosition(Vector2f(i*15, j*15));
+            app.draw(sprite);
+        }
+}
+
+/*Road* Board::getEl()
+{
+    return elements[5][1];
+}*/

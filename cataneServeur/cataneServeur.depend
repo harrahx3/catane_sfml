@@ -1,0 +1,431 @@
+# depslib dependency file v1.0
+1532079289 source:c:\users\hyacinthe\documents\projetscodeblock\cataneserveur\main.cpp
+	"inc.h"
+
+1471030969 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\network.hpp
+	<SFML/System.hpp>
+	<SFML/Network/Ftp.hpp>
+	<SFML/Network/Http.hpp>
+	<SFML/Network/IpAddress.hpp>
+	<SFML/Network/Packet.hpp>
+	<SFML/Network/SocketSelector.hpp>
+	<SFML/Network/TcpListener.hpp>
+	<SFML/Network/TcpSocket.hpp>
+	<SFML/Network/UdpSocket.hpp>
+
+1471030969 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1471030968 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1471030971 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1471030971 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1471030972 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1471030971 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1471030971 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+
+1471030971 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1471030972 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1471030972 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1471030972 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1471030972 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1471030972 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1471030972 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\utf.inl
+
+1471030972 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\string.inl
+
+1471030972 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1471030972 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\thread.inl
+
+1471030972 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1471030972 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1471030972 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\threadlocalptr.inl
+
+1517671093 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1471030972 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\vector2.inl
+
+1471030972 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1471030972 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\system\vector3.inl
+
+1471030971 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\network\ftp.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/TcpSocket.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1471030971 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\network\export.hpp
+	<SFML/Config.hpp>
+
+1471030971 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\network\tcpsocket.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/Socket.hpp>
+	<SFML/System/Time.hpp>
+
+1471030971 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\network\socket.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/SocketHandle.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<vector>
+
+1471030971 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\network\sockethandle.hpp
+	<SFML/Config.hpp>
+	<basetsd.h>
+
+1471030971 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\network\http.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/IpAddress.hpp>
+	<SFML/Network/TcpSocket.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<map>
+	<string>
+
+1471030971 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\network\ipaddress.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/System/Time.hpp>
+	<istream>
+	<ostream>
+	<string>
+
+1471030971 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\network\packet.hpp
+	<SFML/Network/Export.hpp>
+	<string>
+	<vector>
+
+1471030971 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\network\socketselector.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1471030971 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\network\tcplistener.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/Socket.hpp>
+
+1471030971 c:\users\hyacinthe\documents\sfml-2.2-personalisee\include\sfml\network\udpsocket.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/Socket.hpp>
+	<vector>
+
+1531685178 c:\users\hyacinthe\documents\projetscodeblock\cataneserveur\include\player.h
+	"inc.h"
+
+1531671678 c:\users\hyacinthe\documents\projetscodeblock\cataneserveur\include\inc.h
+	<SFML/Network.hpp>
+	<iostream>
+	<cmath>
+	<string>
+	<sstream>
+	<vector>
+	<list>
+	<time.h>
+	<ctime>
+	<fstream>
+	<map>
+	<sstream>
+	"Player.h"
+	"Board.h"
+	"Elements.h"
+	"Client.h"
+
+1531681003 source:c:\users\hyacinthe\documents\projetscodeblock\cataneserveur\src\player.cpp
+	"inc.h"
+
+1531687519 c:\users\hyacinthe\documents\projetscodeblock\cataneserveur\include\board.h
+	"inc.h"
+
+1530651189 c:\users\hyacinthe\documents\projetscodeblock\cataneserveur\include\elements.h
+	"inc.h"
+
+1531862310 c:\users\hyacinthe\documents\projetscodeblock\cataneserveur\include\client.h
+	"inc.h"
+
+1531862611 source:c:\users\hyacinthe\documents\projetscodeblock\cataneserveur\src\board.cpp
+	"inc.h"
+
+1531684389 source:c:\users\hyacinthe\documents\projetscodeblock\cataneserveur\src\client.cpp
+	"inc.h"
+
+1531647247 source:c:\users\hyacinthe\documents\projetscodeblock\cataneserveur\src\elements.cpp
+	"inc.h"
+
+1532079289 source:c:\users\hyacinthe\documents\code\cpp_projects\catane\cataneserveur\main.cpp
+	"inc.h"
+
+1531671678 c:\users\hyacinthe\documents\code\cpp_projects\catane\cataneserveur\include\inc.h
+	<SFML/Network.hpp>
+	<iostream>
+	<cmath>
+	<string>
+	<sstream>
+	<vector>
+	<list>
+	<time.h>
+	<ctime>
+	<fstream>
+	<map>
+	<sstream>
+	"Player.h"
+	"Board.h"
+	"Elements.h"
+	"Client.h"
+
+1531685178 c:\users\hyacinthe\documents\code\cpp_projects\catane\cataneserveur\include\player.h
+	"inc.h"
+
+1531687519 c:\users\hyacinthe\documents\code\cpp_projects\catane\cataneserveur\include\board.h
+	"inc.h"
+
+1530651189 c:\users\hyacinthe\documents\code\cpp_projects\catane\cataneserveur\include\elements.h
+	"inc.h"
+
+1531862310 c:\users\hyacinthe\documents\code\cpp_projects\catane\cataneserveur\include\client.h
+	"inc.h"
+
+1531862611 source:c:\users\hyacinthe\documents\code\cpp_projects\catane\cataneserveur\src\board.cpp
+	"inc.h"
+
+1531684389 source:c:\users\hyacinthe\documents\code\cpp_projects\catane\cataneserveur\src\client.cpp
+	"inc.h"
+
+1531647247 source:c:\users\hyacinthe\documents\code\cpp_projects\catane\cataneserveur\src\elements.cpp
+	"inc.h"
+
+1555924551 source:c:\users\hyacinthe\documents\code\cpp_projects\catane\cataneserveur\src\player.cpp
+	"inc.h"
+
+1471030969 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\network.hpp
+	<SFML/System.hpp>
+	<SFML/Network/Ftp.hpp>
+	<SFML/Network/Http.hpp>
+	<SFML/Network/IpAddress.hpp>
+	<SFML/Network/Packet.hpp>
+	<SFML/Network/SocketSelector.hpp>
+	<SFML/Network/TcpListener.hpp>
+	<SFML/Network/TcpSocket.hpp>
+	<SFML/Network/UdpSocket.hpp>
+
+1471030969 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1471030968 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1471030971 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1471030971 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1471030972 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1471030971 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1471030971 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+
+1471030971 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1471030972 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1471030972 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1471030972 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1471030972 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1471030972 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1471030972 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\utf.inl
+
+1471030972 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\string.inl
+
+1471030972 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1471030972 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\thread.inl
+
+1471030972 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1471030972 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1471030972 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\threadlocalptr.inl
+
+1517671093 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1471030972 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\vector2.inl
+
+1471030972 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1471030972 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\system\vector3.inl
+
+1471030971 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\network\ftp.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/TcpSocket.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1471030971 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\network\export.hpp
+	<SFML/Config.hpp>
+
+1471030971 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\network\tcpsocket.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/Socket.hpp>
+	<SFML/System/Time.hpp>
+
+1471030971 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\network\socket.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/SocketHandle.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<vector>
+
+1471030971 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\network\sockethandle.hpp
+	<SFML/Config.hpp>
+	<basetsd.h>
+
+1471030971 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\network\http.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/IpAddress.hpp>
+	<SFML/Network/TcpSocket.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<map>
+	<string>
+
+1471030971 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\network\ipaddress.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/System/Time.hpp>
+	<istream>
+	<ostream>
+	<string>
+
+1471030971 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\network\packet.hpp
+	<SFML/Network/Export.hpp>
+	<string>
+	<vector>
+
+1471030971 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\network\socketselector.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1471030971 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\network\tcplistener.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/Socket.hpp>
+
+1471030971 c:\users\hyacinthe\documents\code\cpp_projects\__lib\sfml-2.2-personalisee\include\sfml\network\udpsocket.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/Socket.hpp>
+	<vector>
+
